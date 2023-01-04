@@ -1,0 +1,15 @@
+* Active
+** TODO Port configuration to Org file
+SCHEDULED: <2023-01-04 Wed>
+:PROPERTIES:
+:Effort:   60
+:END:
+** NEXT Setup Emacs as IDE 
+SCHEDULED: <2023-01-04 Wed>
+:PROPERTIES:
+:Effort:   70
+:END:
+
+* Backlog
+* Tags
+:hw:

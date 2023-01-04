@@ -1,0 +1,39 @@
+* Heading
+** Sub-Heading
+  *Content* YAY!!!
+** Hit CTRL+Return at the end of a heading to insert one below it!
+
+* Cool things!
+** Links
+  Here is a [[https://www.youtube.com/watch?v=dQw4w9WgXcQ][Youtube link]]!
+
+** Tables
+  | Names | Age | Uses Emacs |
+  | David |  37 | YES        |
+  | Joe   |  12 | YAS QUEEN  |
+
+** Lists!
+*** Unordered Lists
+    - Amogus
+    - is
+    - sus
+
+*** Checklists
+    - [ ] Amogus
+    - [X] Use 'C-c C-x C-b' to check the box
+  
+*** Ordered Lists
+    1. First Item
+    2. Second Item
+    3. Third Item
+
+** Source blocks!
+#+begin_src emacs-lisp
+
+  (defun my-elisp-func ()
+    (message "Helllo!"))
+
+#+end_src
+
+** TODO To-Do headings!?
+(You can use 'C-c C-t' to mark it as done)
