@@ -120,7 +120,7 @@
 
   (jvec/leader-keys
     "t"  '(:ignore t :which-key "Appearance")
-    "tt" '(counsel-load-theme :which-key "choose theme")))
+    "tt" '(counsel-load-theme :which-key "Choose theme")))
 
 (use-package evil
   :init
@@ -154,11 +154,15 @@
   ("f" nil "finished" :exit t))
 
 (jvec/leader-keys
-  "ts" '(hydra-text-scale/body :which-key "scale text"))
+  "ts" '(hydra-text-scale/body :which-key "Scale text"))
 
 (use-package magit
   :custom
   (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
+
+(jvec/leader-keys
+  "m" '(:ignore t :which-key "Magit")
+  "ms" '(magit-status :which-key "Status"))
 
 
 ;; Install programs unless already installed
